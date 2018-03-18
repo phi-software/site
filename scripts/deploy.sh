@@ -1,4 +1,3 @@
-rm -rf public
 hexo generate
 cd public
 git init

@@ -8,7 +8,8 @@
   "scripts": {
     "deploy": "sh scripts/deploy.sh",
     "commit": "sh scripts/commit.sh",
-    "push": "git push origin "
+    "push": "git push origin ",
+    "start": "hexo server"
   },
   "dependencies": {
     "hexo": "^3.2.0",

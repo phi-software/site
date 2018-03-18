@@ -11,6 +11,13 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 $ hexo new "My New Post"
 ```
 
+``` C++
+#include <teste>
+int main(std::string teste) {
+    std::cout << "ola" std::endl;
+}
+```
+
 More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
