@@ -12,14 +12,14 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://felisoftware.github.io
-root: /
-permalink: :year/:month/:day/:title/
+url: http://felisoftware.github.io/blog
+root: /blog/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: public/blog
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -77,5 +77,3 @@ theme: hueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/felisoftware/felisoftware.github.io
