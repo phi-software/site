@@ -1,5 +1,6 @@
 cp static/* public/
 hexo generate
+mkdir public
 cd public
 git init
 git remote add origin https://github.com/felisoftware/felisoftware.github.io
