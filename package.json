@@ -6,8 +6,8 @@
     "version": "3.6.0"
   },
   "scripts": {
-    "deploy": "sh scripts/deploy.sh",
-    "commit": "sh scripts/commit.sh",
+    "deploy": "sh shell/deploy.sh",
+    "commit": "sh shell/commit.sh",
     "push": "git push origin ",
     "start": "hexo server"
   },
